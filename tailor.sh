@@ -6,4 +6,4 @@ set -eux
 
 # And regenerate the lockfile, which will determine what to include via the current implementation
 # of inference, and so will frequently need updating.
-./pants_from_sources coursier-resolve
+./pants_from_sources generate-lockfiles

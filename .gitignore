@@ -10,3 +10,8 @@ target
 .*.swp
 *.vim
 .ensime*
+
+/.pants.d/
+/dist/
+/.pids
+/.pants.workdir.file_lock*
